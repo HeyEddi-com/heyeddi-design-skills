@@ -1,0 +1,13 @@
+{
+  "name": "heyeddi-design-skills",
+  "version": "1.0.0",
+  "description": "Design-only HeyEddi agent skills (published mirror; SSOT is HeyEddi-com/heyeddi-skills).",
+  "skills": [
+    "taste-penpot",
+    "heyeddi-design",
+    "heyeddi-handoff",
+    "design-handoff-flutter",
+    "visual-auditor",
+    "design-system-generalizer"
+  ]
+}

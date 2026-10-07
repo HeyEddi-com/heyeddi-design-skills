@@ -1,0 +1,46 @@
+{
+  "skill": "heyeddi-design",
+  "version": "2.7.0",
+  "tools": [
+    {
+      "name": "load_design_context",
+      "description": "Load PRODUCT.md and DESIGN.md for design sessions.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_root": {
+            "type": "string",
+            "description": "Workspace root path"
+          }
+        },
+        "required": [
+          "project_root"
+        ]
+      },
+      "script": "scripts/load_context.py",
+      "readonly": true
+    },
+    {
+      "name": "verify_prose",
+      "description": "Scan Vue/locale/.heyeddi copy for em/en dashes and banned AI filler.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "project_root": {
+            "type": "string",
+            "description": "Workspace root path"
+          },
+          "check": {
+            "type": "boolean",
+            "description": "Exit non-zero when violations are found"
+          }
+        },
+        "required": [
+          "project_root"
+        ]
+      },
+      "script": "scripts/verify_prose.py",
+      "readonly": true
+    }
+  ]
+}
