@@ -4,9 +4,16 @@
   "groupings": [
     {
       "title": "HeyEddi Design",
-      "description": "Taste owns the look in one pass. heyeddi-design records product context and hands off to code.",
+      "description": "Taste owns the look. vue-design-system builds Vue 3 UI. Playwright MCP verifies the live page.",
       "skills": [
         "taste-penpot",
+        "vue-design-system",
+        "quasar-foundation",
+        "primevue-aura",
+        "motion-physics",
+        "cli-interface-design",
+        "aura-design-tokens",
+        "visual-verification",
         "heyeddi-design",
         "heyeddi-handoff",
         "design-handoff-flutter",

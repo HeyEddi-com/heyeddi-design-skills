@@ -21,7 +21,7 @@ npx skills add HeyEddi-com/heyeddi-design-skills -a cursor -y --skill '*'
 Pin a release:
 
 ```bash
-npx skills add https://github.com/HeyEddi-com/heyeddi-design-skills/tree/v1.0.0 -a cursor -y --skill '*'
+npx skills add https://github.com/HeyEddi-com/heyeddi-design-skills/tree/v1.1.0 -a cursor -y --skill '*'
 ```
 
 Full open toolkit (design, handoff, human PR review, …):
@@ -30,15 +30,22 @@ Full open toolkit (design, handoff, human PR review, …):
 npx skills add HeyEddi-com/heyeddi-skills -a cursor -y --skill '*'
 ```
 
-## Pack (v1.0.0)
+## Pack (v1.1.0)
 
 | Skill | Role |
 |-------|------|
-| `@taste-penpot` | Look. One pass. Penpot when connected. |
+| `@taste-penpot` | General design skill. Penpot API MCP for designer visuals. |
+| `@vue-design-system` | Vue 3 router: Quasar, PrimeVue Aura, motion, tokens, CLI |
+| `@quasar-foundation` | App shell, drawers, mobile and desktop frames |
+| `@primevue-aura` | Dense data, forms, overlays |
+| `@motion-physics` | Spring motion presets |
+| `@cli-interface-design` | Terminal UI; run the script and read stdout |
+| `@aura-design-tokens` | `--app-*` bridge to PrimeVue and Quasar tokens |
+| `@visual-verification` | Live Playwright MCP screenshots |
 | `@heyeddi-design` | Product context, design.md, handoff |
-| `@heyeddi-handoff` | Vue implementation |
+| `@heyeddi-handoff` | Handoff into the Vue design system |
 | `@design-handoff-flutter` | Flutter implementation |
-| `@visual-auditor` | Screenshots and contrast |
+| `@visual-auditor` | Recorded screenshots and contrast |
 | `@design-system-generalizer` | Token and component spread |
 
 ## Hub maintainer
