@@ -21,7 +21,7 @@ npx skills add HeyEddi-com/heyeddi-design-skills -a cursor -y --skill '*'
 Pin a release:
 
 ```bash
-npx skills add https://github.com/HeyEddi-com/heyeddi-design-skills/tree/v1.1.0 -a cursor -y --skill '*'
+npx skills add https://github.com/HeyEddi-com/heyeddi-design-skills/tree/v1.2.0 -a cursor -y --skill '*'
 ```
 
 Full open toolkit (design, handoff, human PR review, …):
@@ -30,15 +30,17 @@ Full open toolkit (design, handoff, human PR review, …):
 npx skills add HeyEddi-com/heyeddi-skills -a cursor -y --skill '*'
 ```
 
-## Pack (v1.1.0)
+## Pack (v1.2.0)
 
 | Skill | Role |
 |-------|------|
-| `@taste-penpot` | General design skill. Penpot API MCP for designer visuals. |
+| `@taste-penpot` | General design skill. Code-to-design, then zcube Penpot MCP. |
 | `@vue-design-system` | Vue 3 router: Quasar, PrimeVue Aura, motion, tokens, CLI |
 | `@quasar-foundation` | App shell, drawers, mobile and desktop frames |
 | `@primevue-aura` | Dense data, forms, overlays |
 | `@motion-physics` | Spring motion presets |
+| `@layout-morph` | Shared-element morphs with Quasar v-morph |
+| `@fancy-ui-craft` | Spotlight, glass, one TresJS accent, local dotLottie |
 | `@cli-interface-design` | Terminal UI; run the script and read stdout |
 | `@aura-design-tokens` | `--app-*` bridge to PrimeVue and Quasar tokens |
 | `@visual-verification` | Live Playwright MCP screenshots |

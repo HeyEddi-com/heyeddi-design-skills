@@ -1,6 +1,6 @@
 {
   "name": "heyeddi-design-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Design-only HeyEddi agent skills (published mirror; SSOT is HeyEddi-com/heyeddi-skills).",
   "skills": [
     "taste-penpot",
@@ -8,6 +8,8 @@
     "quasar-foundation",
     "primevue-aura",
     "motion-physics",
+    "layout-morph",
+    "fancy-ui-craft",
     "cli-interface-design",
     "aura-design-tokens",
     "visual-verification",

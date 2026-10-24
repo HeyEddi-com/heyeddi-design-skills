@@ -11,6 +11,8 @@
         "quasar-foundation",
         "primevue-aura",
         "motion-physics",
+        "layout-morph",
+        "fancy-ui-craft",
         "cli-interface-design",
         "aura-design-tokens",
         "visual-verification",
