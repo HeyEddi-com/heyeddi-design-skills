@@ -21,7 +21,7 @@ npx skills add HeyEddi-com/heyeddi-design-skills -a cursor -y --skill '*'
 Pin a release:
 
 ```bash
-npx skills add https://github.com/HeyEddi-com/heyeddi-design-skills/tree/v1.2.8 -a cursor -y --skill '*'
+npx skills add https://github.com/HeyEddi-com/heyeddi-design-skills/tree/v1.2.10 -a cursor -y --skill '*'
 ```
 
 Full open toolkit (design, handoff, human PR review, …):
@@ -30,7 +30,7 @@ Full open toolkit (design, handoff, human PR review, …):
 npx skills add HeyEddi-com/heyeddi-skills -a cursor -y --skill '*'
 ```
 
-## Pack (v1.2.8)
+## Pack (v1.2.10)
 
 | Skill | Role |
 |-------|------|
