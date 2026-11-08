@@ -1,6 +1,6 @@
 {
   "name": "heyeddi-design-skills",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "Design-only HeyEddi agent skills (published mirror; SSOT is HeyEddi-com/heyeddi-skills).",
   "skills": [
     "taste-penpot",
